@@ -1,0 +1,10 @@
+deshacer cambios! 
+
+git checkout fichero2.js , si el archivo aun no esta en el staging area
+
+git reset HEAD fichero.js  , si el archivo esta en el staging area
+
+git reset --hard HEAD~1 , si el archivo se ha subido ya ... tres opciones, hard,soft y mixed. 
+hard destruira lso cambois mientras las otras lo pondran en el stage area o antes del stage area.
+
+git revert HEAD esto creara un nuevo commit donde deshara el ultimo commit.
